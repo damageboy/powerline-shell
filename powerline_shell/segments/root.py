@@ -1,4 +1,5 @@
 from ..utils import BasicSegment
+import os
 
 
 class Segment(BasicSegment):
@@ -15,4 +16,6 @@ class Segment(BasicSegment):
         if powerline.args.prev_error != 0:
             fg = powerline.theme.CMD_FAILED_FG
             bg = powerline.theme.CMD_FAILED_BG
-        powerline.append(root_indicators[powerline.args.shell], fg, bg, sanitize=False)
+        symbol = ' \uf0f0 ' if os.geteuid() == 0 else ' \uf007 '
+        powerline.append(symbol, fg, bg, sanitize=False)
+        #powerline.append(root_indicators[powerline.args.shell], fg, bg, sanitize=False)

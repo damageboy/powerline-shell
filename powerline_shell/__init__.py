@@ -74,6 +74,42 @@ class Powerline(object):
             'separator': '',
             'separator_thin': ''
         },
+        'angly1': {
+                'lock': u'\uE0A2',
+                'network': u'\uf983',
+                'separator': u'\uE0B8',
+                'separator_thin': u'\uE0B9'
+        },
+        'angly2': {
+            'lock': u'\uE0A2',
+            'network': u'\uf983',
+            'separator': u'\uE0BC',
+            'separator_thin': u'\uE0BD'
+        },
+        'curvy': {
+            'lock': u'\uE0A2',
+            'network': u'\uE0A2',
+            'separator': u'\uE0B4',
+            'separator_thin': u'\uE0B5'
+        },
+        'flames': {
+            'lock': u'\uE0A2',
+            'network': u'\uE0A2',
+            'separator': u'\uE0C0',
+            'separator_thin': u'\uE0C1'
+        },
+        'lego': {
+            'lock': u'\uE0A2',
+            'network': u'\uE0A2',
+            'separator': u'\uE0CE',
+            'separator_thin': u'\uE0CF'
+        },
+        'pixelated': {
+            'lock': u'\uE0A2',
+            'network': u'\uE0A2',
+            'separator': u'\uE0C6',
+            'separator_thin': u'\uE0C6'
+        }
     }
 
     color_templates = {
